@@ -39,6 +39,12 @@ case "home":
     //llamar al controlador
     include_once "controllers/home.control.php";
     die();
+case "sobre":
+    include_once "controllers/sobre.control.php";
+    die();
+case "categoria":
+    include_once "controllers/categoria.control.php";
+    die();
 case "login":
     include_once "controllers/security/login.control.php";
     die();
