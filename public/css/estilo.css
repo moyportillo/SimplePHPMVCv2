@@ -250,16 +250,16 @@ label {
   display: inline-block;
   padding: 0.25em 0.5em;
   border-radius: 53px;
-  color: #000;
+  color:  #212121;
 }
 
 .btn:hover {
-  background-color: #CCC;
+  background-color: #448AFF;
 }
 
 .btn-primary {
-  background-color: #C8C2B2;
-  color: white;
+  background-color: #448AFF;
+  color: #212121;
 }
 
 @media screen and (max-width: 768px) {
