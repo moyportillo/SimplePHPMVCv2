@@ -7,9 +7,9 @@
           diferentes ofertas y descuentos que la diversidad de empresas ofrecen a sus clientes" - Jefe de Ofertas
     </p>
 </div>
-<div>
-    <h2 >Ofertas para todos</h2>
-    <p>Ahora desde nuestra plataforma puedes encontrar todas las ofertas de distintas empresas, como solo un click puedes 
+<div class="row">
+    <h2 class="col-3 col">Ofertas para todos</h2>
+    <p class="col-9 col">Ahora desde nuestra plataforma puedes encontrar todas las ofertas de distintas empresas, como solo un click puedes 
         encontrar una gran variedad de productos y lo mas interesante es que ayuda a nuestros clientes a encontrar las mejores
          ofertas dentro del mercado, y asi poder ayudar en los gastos de nuestros clientes.</p>
 </div>

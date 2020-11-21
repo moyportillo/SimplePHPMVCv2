@@ -1,5 +1,5 @@
 <div class="heropanel">
-  <h1>OfferBooks</h1>
+  <h1><span class="badge secondary">Offer</span>Books</h1>
   <a href="index.php?page=admin" class="btn btn-primary">Crear Cuenta</a>
 </div>
 <section class="cards">
@@ -14,3 +14,4 @@
   </div>
 </section>
 <link rel="stylesheet" href="public/css/hero.css" />
+
