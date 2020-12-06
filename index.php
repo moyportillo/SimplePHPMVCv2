@@ -51,6 +51,9 @@ case "login":
 case "logout":
     include_once "controllers/security/logout.control.php";
     die();
+case "setup":
+    include_once "setup.php";
+    die();
 }
 
 //Este switch se encarga de todo el enrutamiento que ocupa login

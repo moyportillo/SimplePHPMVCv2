@@ -8,8 +8,8 @@
     </p>
 </div>
 <div class="row">
-    <h2 class="col-3 col">Ofertas para todos</h2>
-    <p class="col-9 col">Ahora desde nuestra plataforma puedes encontrar todas las ofertas de distintas empresas, como solo un click puedes 
+    <h2 class="col-6">Ofertas para todos</h2>
+    <p class="col-6">Ahora desde nuestra plataforma puedes encontrar todas las ofertas de distintas empresas, como solo un click puedes 
         encontrar una gran variedad de productos y lo mas interesante es que ayuda a nuestros clientes a encontrar las mejores
          ofertas dentro del mercado, y asi poder ayudar en los gastos de nuestros clientes.</p>
 </div>
@@ -18,8 +18,8 @@
     <p>Tambien te ofrecemos la posibilidad de comprar tus productos en cualquier parte del mundo, con un metodo seguro, por lo cual 
         podras seleccionar y comprar tu articulo con una facilidad que solo OfferBook te da y tener tambien el controlo de las gestiones de tus compras.</p>
 </div>
-<div>
-    <h2>Localiza tus Promociones</h2>
-    <p>inalmente tenemos un gran sistema de localizacion de nuestras promociones en todo el mundo, por la cual tu podras localizar por medio de mapas, la cobertura de 
+<div  class="row">
+    <h2 class="col-6">Localiza tus Promociones</h2>
+    <p class="col-6">inalmente tenemos un gran sistema de localizacion de nuestras promociones en todo el mundo, por la cual tu podras localizar por medio de mapas, la cobertura de 
         todos tus articulos, promociones y empresas que podrian llamar tu atencion, para poder visualizar las sucursales o tiendas cercanas a ti.</p>
 </div>

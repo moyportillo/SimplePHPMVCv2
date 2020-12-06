@@ -1,5 +1,5 @@
-<section class="row">
-  <form id="formLogin" action="index.php?page=login" method="POST" class="col-md-6 col-offset-3 card">
+<section class="row background_login">
+  <form id="formLogin" action="index.php?page=login" method="POST" class="col-md-12 col-offset-5 card">
     <h1>Inicio de Sesión</h1>
     <input name="returnto" value="{{returnto}}" type="hidden" />
     <input name="tocken" value="{{tocken}}" type="hidden"/>
@@ -12,7 +12,7 @@
       <input class="col-md-7" type="password" name="txtPswd" id="txtPswd" value=""  />
     </div><br/>
     <div class="row">
-      <button class="col-md-12 btn-primary" id="btnSend"><span class="ion-log-in"></span>&nbsp;Iniciar Sesión</button>
+      <button class="col-md-12 btn-success" id="btnSend"><span class="ion-log-in"></span>&nbsp;Iniciar Sesión</button>
     </div>
     {{if showerrors}}
         <div class="alert alert-danger">

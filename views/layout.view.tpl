@@ -6,8 +6,8 @@
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
             <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-            <link rel="stylesheet" href="public/css/papier.css" />
             <link rel="stylesheet" href="public/css/estilo.css" />
+            <link rel="stylesheet" href="public/css/paper.css" />
             <script src="public/js/jquery.min.js"></script>
             {{foreach css_ref}}
                 <link rel="stylesheet" href="{{uri}}" />
