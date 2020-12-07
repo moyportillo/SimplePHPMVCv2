@@ -54,6 +54,9 @@ case "logout":
 case "setup":
     include_once "setup.php";
     die();
+case "newclient":
+    include_once "controllers/cuentas/newclient.control.php";
+    die();
 }
 
 //Este switch se encarga de todo el enrutamiento que ocupa login

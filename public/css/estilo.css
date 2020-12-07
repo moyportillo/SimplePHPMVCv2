@@ -251,16 +251,15 @@ label {
   display: inline-block;
   padding: 0.25em 0.5em;
   border-radius: 53px;
-  color:  #ffffff;
+  color: #212121;
 }
 
 .btn:hover {
-  background-color: #D1C4E9;
+  background-color: #BDBDBD;
 }
 
 .btn-primary {
   background-color: #448AFF;
-  color: #FFFFFF;
 }
 
 @media screen and (max-width: 768px) {
