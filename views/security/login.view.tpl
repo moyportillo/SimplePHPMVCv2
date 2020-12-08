@@ -1,5 +1,5 @@
 <section class="row">
-  <form id="formLogin" action="index.php?page=login" method="POST" class="card row">
+  <form id="formLogin" action="index.php?page=login" method="POST" class="card row" style="width: 40rem;">
     <h1 style="text-align: center;">Inicio de Sesión</h1>
     <input name="returnto" value="{{returnto}}" type="hidden" />
     <input name="tocken" value="{{tocken}}" type="hidden"/>

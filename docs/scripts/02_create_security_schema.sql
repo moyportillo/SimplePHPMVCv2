@@ -1,8 +1,6 @@
 use offerbook;
 CREATE TABLE `usuario` (
   `usercod` bigint(10) NOT NULL AUTO_INCREMENT,
-  `ID_PERSONA_USER` bigint(10) NOT NULL,
-  `useremail` varchar(80) DEFAULT NULL,
   `username` varchar(80) DEFAULT NULL,
   `userpswd` varchar(128) DEFAULT NULL,
   `userfching` datetime DEFAULT NULL,
@@ -12,10 +10,20 @@ CREATE TABLE `usuario` (
   `useractcod` varchar(128) DEFAULT NULL,
   `userpswdchg` varchar(128) DEFAULT NULL,
   `usertipo` char(3) DEFAULT NULL COMMENT 'Tipo de Usuario, Normal',
+  `nombre_user` varchar(40) null,
+	`apellido_user` varchar(40) null,
+	`fecha_nacimiento_user` date null,
+	`numero_identidad_user` varchar(20) null,
+	`direccion_residencia_user` nvarchar(45) null,
+  `telefono_user1` nvarchar(10) null,
+  `telefono_user2` nvarchar(10) null,
+	`email_user` nvarchar(80) default null,
+	`ciudad_user` varchar(40) null,
+	`sexo_user` varchar(3) null,
+
   PRIMARY KEY (`usercod`),
-  UNIQUE KEY `useremail_UNIQUE` (`useremail`),
-  KEY `usertipo` (`usertipo`,`useremail`,`usercod`,`userest`),
-  CONSTRAINT FK_ID_PERSONA_USER FOREIGN KEY (ID_PERSONA_USER) REFERENCES PERSONA(ID_PERSONA)
+  UNIQUE KEY `useremail_UNIQUE` (`email_user`),
+  KEY `usertipo` (`usertipo`,`email_user`,`usercod`,`userest`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 CREATE TABLE `roles` (

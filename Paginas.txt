@@ -1,0 +1,33 @@
+
+1 - Pagina Crear Nueva Cuenta - Insert Kevin y miguel
+
+
+*Cliente Normal
+
+5- Pagina Catalogo - todos los productos
+
+Pagina Compras -
+
+Pagina lista de Carrito de compras
+
+Pagina Pasarela de PAgo
+
+
+*administrador
+
+2 - Pagina Usuarios - Modificar - Eliminar - Ver  Yulissa y Jose Filtro
+
+5 - Pagina Catalogo - todos los productos Miguel y Kevin
+
+Pagina historia de transacciones todas las transacciones
+
+
+*Proveedor
+3- Paginas de sus Productos Kevin y Yulissa filtro : codigo o Tipo Producto (insertar, modificar, Eliminar)
+ 
+4 - Pagina Crear producto Jose y Miguel 
+
+Pagina historia de transacciones (compras a ellos)
+
+
+

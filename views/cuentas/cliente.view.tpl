@@ -1,6 +1,6 @@
 <h1 style="text-align: center;">Cuenta<span class="badge success">Nueva</span></h1>
 <selection>
-    <div class="card row" style="width: 20rem;">
+    <div class="card row" style="width: 40rem;">
     <form method="POST" action="index.php?page=newclient">
         <input type="hidden" name="xsstoken" value="{{xsstoken}}"/>
         <div>
