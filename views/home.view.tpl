@@ -1,6 +1,6 @@
 <div class="heropanel">
   <h1><span class="badge secondary">Offer</span>Books</h1>
-  <a href="index.php?page=newclient" class="btn btn-primary">Crear Cuenta</a>
+  <a href="index.php?page=newclient&mode=INS&usercod=0" class="btn btn-primary">Crear Cuenta</a>
 </div>
 <section class="cards">
   <div>

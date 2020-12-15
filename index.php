@@ -57,6 +57,31 @@ case "setup":
 case "newclient":
     include_once "controllers/cuentas/newclient.control.php";
     die();
+case "productos":
+    include_once "controllers/mtn/productos.control.php";
+    die();
+case "producto":
+    include_once "controllers/mtn/producto.control.php";
+    die();
+case "usuarios":
+    include_once "controllers/mtn/usuarios.control.php";
+    die();
+case "usuario":
+    include_once "controllers/mtn/usuario.control.php";
+    die();
+
+case "addtocart":
+    include_once "controllers/retail/addtocart.control.php";
+    die();
+case "rmvtocart":
+    include_once "controllers/retail/rmvtocart.control.php";
+    die();
+case "cartanon":
+    include_once "controllers/retail/cartanon.control.php";
+    die();
+case "rmvallcart":
+    include_once "controllers/retail/rmvAllCart.control.php";
+    die();
 }
 
 //Este switch se encarga de todo el enrutamiento que ocupa login
@@ -108,7 +133,34 @@ case "programa":
       include_once "controllers/security/programa.control.php":
       mw_redirectToLogin($_SERVER["QUERY_STRING"]);
     die();
+case "usuarios":
+    ($logged)?
+      include_once "controllers/mtn/usuarios.control.php":
+      mw_redirectToLogin($_SERVER["QUERY_STRING"]);
+    die();
+case "cartauth":
+    ($logged) ?
+      include_once "controllers/retail/cartauth.control.php" :
+      mw_redirectToLogin($_SERVER["QUERY_STRING"]);
+    die();
+case "checkout":
+    ($logged) ?
+      include_once "controllers/retail/paypal/checkout.control.php" :
+      mw_redirectToLogin($_SERVER["QUERY_STRING"]);
+    die();
+case "checkoutapr":
+    ($logged) ?
+      include_once "controllers/retail/paypal/checkoutapproved.control.php" :
+      mw_redirectToLogin($_SERVER["QUERY_STRING"]);
+    die();
+case "checkoutcnl":
+    ($logged) ?
+      include_once "controllers/retail/paypal/checkoutcancel.control.php" :
+      mw_redirectToLogin($_SERVER["QUERY_STRING"]);
+    die();
 }
+
+
 
 addToContext("pageRequest", $pageRequest);
 require_once "controllers/error.control.php";

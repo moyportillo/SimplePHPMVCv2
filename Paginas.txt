@@ -1,10 +1,10 @@
 
-1 - Pagina Crear Nueva Cuenta - Insert Kevin y miguel
+* 1 - Pagina Crear Nueva Cuenta - Insert Kevin y miguel
 
 
 *Cliente Normal
 
-5- Pagina Catalogo - todos los productos
+5 Pagina Catalogo - todos los productos
 
 Pagina Compras -
 
@@ -15,19 +15,18 @@ Pagina Pasarela de PAgo
 
 *administrador
 
-2 - Pagina Usuarios - Modificar - Eliminar - Ver  Yulissa y Jose Filtro
+Pagina Mantenimiento Usuario
 
 5 - Pagina Catalogo - todos los productos Miguel y Kevin
 
 Pagina historia de transacciones todas las transacciones
 
-
-*Proveedor
-3- Paginas de sus Productos Kevin y Yulissa filtro : codigo o Tipo Producto (insertar, modificar, Eliminar)
  
-4 - Pagina Crear producto Jose y Miguel 
-
-Pagina historia de transacciones (compras a ellos)
+*4 - Pagina Crear producto Jose y Miguel 
 
 
 
+Paginas
+cliente nuevo
+Todos los Productos
+Todos los Usuarios
