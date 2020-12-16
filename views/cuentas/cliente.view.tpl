@@ -14,12 +14,12 @@
         <input type="password" name="userpswd" id="userpswd" value="{{userpswd}}" placeholder="Password"/>
         </div>
         <div>
-        <label for="nombre_user">Nombre del Cliente: </label>
-        <input type="text" name="nombre_user" id="nombre_user" value="{{nombre_user}}" placeholder="Nombre Cliente"/>
+        <label for="nombre_user">Nombre del usuario: </label>
+        <input type="text" name="nombre_user" id="nombre_user" value="{{nombre_user}}" placeholder="Nombre usuario"/>
         </div>
         <div>
-        <label for="apellido_user">Apellido del Cliente: </label>
-        <input type="text" name="apellido_user" id="apellido_user" value="{{apellido_user}}" placeholder="Apellido Cliente"/>
+        <label for="apellido_user">Apellido del usuario: </label>
+        <input type="text" name="apellido_user" id="apellido_user" value="{{apellido_user}}" placeholder="Apellido usuario"/>
         </div>
         <div>
         <label for="numero_identidad_user">Numero de Identidad: </label>

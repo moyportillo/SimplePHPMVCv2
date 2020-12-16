@@ -38,7 +38,7 @@ function addNewProducto($dscprd,$sdscprd,$skuprd,$bcdprd,$stkprd, $typprd,$prcpr
 
 function getProductosPorFiltro($filtro){
     $ffiltro = $filtro.'%';
-    $sqlstr = "SELECT * FROM productos where codprd LIKE '%d' Or `typprd` LIKE '%s';";
+    $sqlstr = "SELECT * FROM productos where codprd LIKE '%d' Or `dscprd` LIKE '%s';";
     return obtenerRegistros(sprintf($sqlstr, $ffiltro, $ffiltro));
 }
 
@@ -310,7 +310,7 @@ function insertProducto(
  *
  * @return integer Registros Modificados
  */
-function updateProducto(
+/*function updateProducto(
     $dscprd,
     $sdscprd,
     $ldscprd,
@@ -343,7 +343,7 @@ function updateProducto(
             $codprd
         )
     );
-}
+}*/
 
 /**
  * Cambia la Url de la Imagen del producto
@@ -375,14 +375,14 @@ function setImageProducto($url, $codprd, $type="PRT")
  *
  * @return integer Registro Afectados
  */
-function deleteProducto($codprd)
+/*function deleteProducto($codprd)
 {
     $sqlDelete = "DELETE FROM productos WHERE codprd = %d;";
 
     return ejecutarNonQuery(
         sprintf($sqlDelete, $codprd)
     );
-}
+}*/
 
 
 /*----------------------------------------------------------------

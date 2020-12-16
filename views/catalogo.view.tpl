@@ -1,17 +1,17 @@
 <header>
-    <h1>Bienvenido {{userScreenName}}</h1>
+    <h1 class="center">Bienvenido {{userScreenName}}</h1>
   </header>
-  <section class="cards row">
+    <section class="cards row">
     {{foreach productos}}
-    <section class="col-12 col-sm-6 col-md-3 m-padding">
+    <section class="container-sm col-md-3 m-padding">
       <div class="card col-12 depth-2 m-padding">
         <span class="col-sm-12 center depth-1">
-          {{if urlthbprd}}
-          <img src="{{urlthbprd}}" alt="{{skuprd}} {{dscprd}}" class="imgthumb center" />
-          {{endif urlthbprd}}
+          {{if urlprd}}
+          <img src="{{urlprd}}" alt="{{skuprd}} {{dscprd}}" class="imgthumb center" />
+          {{endif urlprd}}
         </span>
         <span class="col-12 center depth-1 m-padding card-desc">
-          <span class="card-side">{{skuprd}}</span>
+          <span class="card-side bg2">{{skuprd}}</span>
           <span class="col-12">{{dscprd}}</span>
         </span>
         <span class="col-12 center depth-1 m-padding">
@@ -58,5 +58,14 @@
       left: 1em;
       transform-origin: left top;
       transform: rotate(-90deg);
+    }
+    .bg2{
+      background-color: #673AB7;
+      color: #fff;
+      border-radius: 2em;
+      padding: 0.5em;
+    }
+    .center{
+      text-align: center ;
     }
   </style>

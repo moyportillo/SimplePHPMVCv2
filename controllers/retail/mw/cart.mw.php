@@ -1,7 +1,7 @@
 <?php
 
 
-require_once "models/mantenimientos/productos.model.php";
+require_once "models/mtn/productos.model.php";
 
 function runCartMW()
 {
